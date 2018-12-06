@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Page View Controller-->
+        <!--Abstraction View Controller-->
         <scene sceneID="R3N-2G-sKh">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="jgX-gF-NLd" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="jgX-gF-NLd" customClass="AbstractionViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qCz-Nj-JZq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="134" y="134"/>
@@ -45,6 +45,7 @@
                             <constraint firstItem="mWt-gS-idh" firstAttribute="centerX" secondItem="d5T-Vg-7By" secondAttribute="centerX" id="6ul-bG-lSo"/>
                             <constraint firstItem="9fS-9f-2Ou" firstAttribute="top" secondItem="Avv-l2-ExU" secondAttribute="top" constant="100" id="IS2-hi-9L7"/>
                             <constraint firstItem="9fS-9f-2Ou" firstAttribute="top" secondItem="mWt-gS-idh" secondAttribute="bottom" constant="50" id="UGJ-mn-AhP"/>
+                            <constraint firstItem="mWt-gS-idh" firstAttribute="width" secondItem="9fS-9f-2Ou" secondAttribute="width" id="xI1-hJ-HkI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Avv-l2-ExU"/>
                     </view>

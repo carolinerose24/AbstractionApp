@@ -52,7 +52,7 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
     //MARK: - DATASOURCE REQUIRED METHODS
     //Swipe left:
     public func pageViewController(_ pageViewController: UIPageViewController,
-                                   viewControllerBefore: UIViewController) -> UIViewController?
+                                   viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
             else
@@ -77,7 +77,7 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
     }
     
     //swipe right
-    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter: UIViewController) -> UIViewController?
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex =  orderedAbstractionViews.index(of: viewController)
             else
