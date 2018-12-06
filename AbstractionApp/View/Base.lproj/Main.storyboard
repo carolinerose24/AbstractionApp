@@ -12,7 +12,7 @@
         <!--Abstraction View Controller-->
         <scene sceneID="R3N-2G-sKh">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="jgX-gF-NLd" customClass="AbstractionViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="jgX-gF-NLd" customClass="AbstractionViewController" customModule="AbstractionApp" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qCz-Nj-JZq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="134" y="134"/>
@@ -25,14 +25,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWt-gS-idh">
-                                <rect key="frame" x="21" y="255" width="333" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Swift: This has the most abstractions because of how similar the language is to regular english. An example is “for line in bucketlines” which reads almost like an English sentence.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BucketListApp12:4" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-9f-2Ou">
                                 <rect key="frame" x="15.5" y="45" width="344" height="82"/>
                                 <constraints>
@@ -40,10 +32,23 @@
                                     <constraint firstAttribute="width" constant="344" id="o4N-To-F22"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWt-gS-idh">
+                                <rect key="frame" x="21" y="142" width="333" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="JgB-gL-hpl"/>
+                                    <constraint firstAttribute="width" constant="333" id="RlL-Dt-equ"/>
+                                </constraints>
+                                <string key="text">Swift: This has the most abstractions because of how similar the language is to regular english. An example is “for line in bucketlines” which reads almost like an English sentence.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.80685631560000004" green="1" blue="0.9828710839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="mWt-gS-idh" firstAttribute="top" secondItem="9fS-9f-2Ou" secondAttribute="bottom" constant="15" id="EkH-gY-VAd"/>
                             <constraint firstItem="9fS-9f-2Ou" firstAttribute="centerX" secondItem="d5T-Vg-7By" secondAttribute="centerX" id="Oae-bh-w5n"/>
+                            <constraint firstItem="mWt-gS-idh" firstAttribute="centerX" secondItem="d5T-Vg-7By" secondAttribute="centerX" id="YP2-zB-bC4"/>
                             <constraint firstItem="9fS-9f-2Ou" firstAttribute="top" secondItem="Avv-l2-ExU" secondAttribute="top" constant="25" id="aqn-GR-Rj0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Avv-l2-ExU"/>
