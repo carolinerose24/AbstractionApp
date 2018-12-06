@@ -25,27 +25,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWt-gS-idh">
-                                <rect key="frame" x="-493" y="449" width="1361" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWt-gS-idh">
+                                <rect key="frame" x="21" y="255" width="333" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Swift: This has the most abstractions because of how similar the language is to regular english. An example is “for line in bucketlines” which reads almost like an English sentence.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BucketListApp12:4" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-9f-2Ou">
-                                <rect key="frame" x="25" y="125" width="324" height="82"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BucketListApp12:4" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-9f-2Ou">
+                                <rect key="frame" x="15.5" y="45" width="344" height="82"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="520" id="lay-5g-mMq"/>
+                                    <constraint firstAttribute="height" constant="82" id="Pab-gE-tC4"/>
+                                    <constraint firstAttribute="width" constant="344" id="o4N-To-F22"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.80685631560000004" green="1" blue="0.9828710839" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9fS-9f-2Ou" firstAttribute="centerX" secondItem="d5T-Vg-7By" secondAttribute="centerX" id="020-Ic-vuC"/>
-                            <constraint firstItem="mWt-gS-idh" firstAttribute="centerX" secondItem="d5T-Vg-7By" secondAttribute="centerX" id="6ul-bG-lSo"/>
-                            <constraint firstItem="9fS-9f-2Ou" firstAttribute="top" secondItem="Avv-l2-ExU" secondAttribute="top" constant="100" id="IS2-hi-9L7"/>
-                            <constraint firstItem="9fS-9f-2Ou" firstAttribute="top" secondItem="mWt-gS-idh" secondAttribute="bottom" constant="50" id="UGJ-mn-AhP"/>
-                            <constraint firstItem="mWt-gS-idh" firstAttribute="width" secondItem="9fS-9f-2Ou" secondAttribute="width" id="xI1-hJ-HkI"/>
+                            <constraint firstItem="9fS-9f-2Ou" firstAttribute="centerX" secondItem="d5T-Vg-7By" secondAttribute="centerX" id="Oae-bh-w5n"/>
+                            <constraint firstItem="9fS-9f-2Ou" firstAttribute="top" secondItem="Avv-l2-ExU" secondAttribute="top" constant="25" id="aqn-GR-Rj0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Avv-l2-ExU"/>
                     </view>
@@ -62,23 +61,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slQ-0q-7z4">
-                                <rect key="frame" x="-759" y="523" width="1860" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppInventor12:4" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-PB-syO">
+                                <rect key="frame" x="16" y="45" width="343" height="449"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slQ-0q-7z4">
+                                <rect key="frame" x="16" y="515" width="343" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Block Code: This code is still very much an abstraction because commands are written in english and followed out by the computer. It is less abstract than swift, however, because you must use preprogrammed blocks instead of your own words.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="AppInventor12:4" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-PB-syO">
-                                <rect key="frame" x="16" y="38" width="343" height="449"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.61567504876262147" green="1" blue="0.99235709893466639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="slQ-0q-7z4" firstAttribute="centerX" secondItem="VjH-Q0-DhA" secondAttribute="centerX" id="Qhe-Xu-feB"/>
-                            <constraint firstItem="HMs-PB-syO" firstAttribute="top" secondItem="w2N-Ip-Ivy" secondAttribute="top" constant="100" id="cs3-JD-GX5"/>
-                            <constraint firstItem="HMs-PB-syO" firstAttribute="top" secondItem="slQ-0q-7z4" secondAttribute="bottom" constant="50" id="w8N-ri-yss"/>
+                            <constraint firstItem="HMs-PB-syO" firstAttribute="top" secondItem="w2N-Ip-Ivy" secondAttribute="top" constant="25" id="brQ-Zv-kVk"/>
+                            <constraint firstItem="HMs-PB-syO" firstAttribute="trailing" secondItem="VjH-Q0-DhA" secondAttribute="trailingMargin" id="btI-Ne-eY5"/>
+                            <constraint firstItem="HMs-PB-syO" firstAttribute="leading" secondItem="VjH-Q0-DhA" secondAttribute="leadingMargin" id="kgy-Ui-IvB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="w2N-Ip-Ivy"/>
                     </view>
@@ -95,22 +95,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ByteCode12:4" translatesAutoresizingMaskIntoConstraints="NO" id="NlF-xp-kw2">
-                                <rect key="frame" x="16" y="84" width="343" height="240"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJh-kB-PaN">
-                                <rect key="frame" x="-642" y="411" width="1659" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJh-kB-PaN">
+                                <rect key="frame" x="16" y="323" width="343" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Byte Code: This is the computer generated code that is used in the compilation process. It is not very abstract because it is a computer language and not a human language, so it is hard for people to use or understand.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BC" translatesAutoresizingMaskIntoConstraints="NO" id="NlF-xp-kw2">
+                                <rect key="frame" x="16" y="45" width="343" height="238"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="nzv-Hs-gg8"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.79822545089999997" green="1" blue="0.76334553920000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NlF-xp-kw2" firstAttribute="top" secondItem="wJh-kB-PaN" secondAttribute="bottom" constant="50" id="4hc-oN-gvW"/>
-                            <constraint firstItem="wJh-kB-PaN" firstAttribute="centerX" secondItem="eHe-l7-3yz" secondAttribute="centerX" id="JDD-jw-835"/>
-                            <constraint firstItem="NlF-xp-kw2" firstAttribute="top" secondItem="d8b-jM-Mdb" secondAttribute="top" constant="100" id="PcF-qN-vVU"/>
+                            <constraint firstItem="NlF-xp-kw2" firstAttribute="centerX" secondItem="eHe-l7-3yz" secondAttribute="centerX" id="lIJ-0u-so1"/>
+                            <constraint firstItem="NlF-xp-kw2" firstAttribute="top" secondItem="d8b-jM-Mdb" secondAttribute="top" constant="25" id="lvp-eI-Pcf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d8b-jM-Mdb"/>
                     </view>
@@ -127,11 +130,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Binary" translatesAutoresizingMaskIntoConstraints="NO" id="ce8-kP-qwg">
-                                <rect key="frame" x="17" y="120" width="342" height="210"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Binary" translatesAutoresizingMaskIntoConstraints="NO" id="ce8-kP-qwg">
+                                <rect key="frame" x="16" y="45" width="343" height="365"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="J2c-Id-oWs"/>
+                                    <constraint firstAttribute="height" constant="365" id="afv-Uu-SmM"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebc-em-Kfa" userLabel="BinaryText">
-                                <rect key="frame" x="-889" y="427" width="2155" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebc-em-Kfa" userLabel="BinaryText">
+                                <rect key="frame" x="16" y="425" width="343" height="227"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="7ld-yD-MTr"/>
+                                    <constraint firstAttribute="width" constant="343" id="gub-9n-KFe"/>
+                                </constraints>
                                 <string key="text">Binary:  This is one of the least abstract languages because it cannot be read quickly and easily by humans. It is meant to be read by computers and is not very helpful but is more abstract than logic gates because it can represent any letter/character you want albeit in a difficult form.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -140,8 +151,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.54945432399131766" green="1" blue="0.97938506554886195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ebc-em-Kfa" firstAttribute="centerX" secondItem="5uU-2C-6a9" secondAttribute="centerX" id="3jg-4J-0HF"/>
-                            <constraint firstItem="ce8-kP-qwg" firstAttribute="top" secondItem="Ebc-em-Kfa" secondAttribute="bottom" constant="50" id="dCs-6b-SV7"/>
+                            <constraint firstItem="xrG-Sq-gaR" firstAttribute="bottom" secondItem="Ebc-em-Kfa" secondAttribute="bottom" constant="15" id="0R8-G0-q4L"/>
+                            <constraint firstItem="ce8-kP-qwg" firstAttribute="top" secondItem="xrG-Sq-gaR" secondAttribute="top" constant="15" id="Cnq-ap-MtT"/>
+                            <constraint firstItem="Ebc-em-Kfa" firstAttribute="top" secondItem="ce8-kP-qwg" secondAttribute="bottom" constant="15" id="E6K-po-qfd"/>
+                            <constraint firstItem="ce8-kP-qwg" firstAttribute="top" secondItem="xrG-Sq-gaR" secondAttribute="top" constant="25" id="Ijp-Ff-X4u"/>
+                            <constraint firstItem="Ebc-em-Kfa" firstAttribute="centerX" secondItem="5uU-2C-6a9" secondAttribute="centerX" id="lKJ-qm-tu6"/>
+                            <constraint firstItem="ce8-kP-qwg" firstAttribute="centerX" secondItem="5uU-2C-6a9" secondAttribute="centerX" id="yCF-vU-8MC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xrG-Sq-gaR"/>
                     </view>
@@ -158,11 +173,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="LogicGate" translatesAutoresizingMaskIntoConstraints="NO" id="aMc-f3-u2G">
-                                <rect key="frame" x="16" y="135" width="343" height="183"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogicGate1" translatesAutoresizingMaskIntoConstraints="NO" id="aMc-f3-u2G">
+                                <rect key="frame" x="16" y="35" width="343" height="183"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciJ-e2-BQ3">
-                                <rect key="frame" x="-690" y="440" width="1755" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciJ-e2-BQ3">
+                                <rect key="frame" x="16" y="233" width="343" height="173"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="C88-Zj-aQy"/>
+                                    <constraint firstAttribute="height" constant="173" id="kLi-4Z-im9"/>
+                                </constraints>
                                 <string key="text">Logic Gates: These are the least abstract and complex because they deal with true or false answers like booleans. They have no ability to understand things that do not fit into one category or another, making them the most simple.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -171,9 +190,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.62687668276820163" green="0.95144834847958415" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ciJ-e2-BQ3" firstAttribute="centerX" secondItem="KIo-VM-wYY" secondAttribute="centerX" id="NLy-4S-ghT"/>
-                            <constraint firstItem="aMc-f3-u2G" firstAttribute="top" secondItem="ciJ-e2-BQ3" secondAttribute="bottom" constant="50" id="U7r-Qb-GxE"/>
-                            <constraint firstItem="aMc-f3-u2G" firstAttribute="top" secondItem="rMo-U3-nVM" secondAttribute="top" constant="115" id="jYj-it-IeA"/>
+                            <constraint firstItem="aMc-f3-u2G" firstAttribute="leading" secondItem="KIo-VM-wYY" secondAttribute="leadingMargin" id="OEq-Xz-0QX"/>
+                            <constraint firstItem="ciJ-e2-BQ3" firstAttribute="centerX" secondItem="KIo-VM-wYY" secondAttribute="centerX" id="VrM-xL-k32"/>
+                            <constraint firstItem="ciJ-e2-BQ3" firstAttribute="top" secondItem="aMc-f3-u2G" secondAttribute="bottom" constant="15" id="YbK-pN-7BP"/>
+                            <constraint firstItem="aMc-f3-u2G" firstAttribute="trailing" secondItem="KIo-VM-wYY" secondAttribute="trailingMargin" id="hqe-kJ-Mzu"/>
+                            <constraint firstItem="aMc-f3-u2G" firstAttribute="centerX" secondItem="KIo-VM-wYY" secondAttribute="centerX" id="od9-K5-30V"/>
+                            <constraint firstItem="aMc-f3-u2G" firstAttribute="top" secondItem="rMo-U3-nVM" secondAttribute="top" constant="15" id="wIs-Uy-GBL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rMo-U3-nVM"/>
                     </view>
@@ -185,9 +207,9 @@
     </scenes>
     <resources>
         <image name="AppInventor12:4" width="456" height="449"/>
+        <image name="BC" width="208" height="238"/>
         <image name="Binary" width="900" height="546"/>
         <image name="BucketListApp12:4" width="530" height="165"/>
-        <image name="ByteCode12:4" width="634" height="202"/>
-        <image name="LogicGate" width="275" height="183"/>
+        <image name="LogicGate1" width="275" height="183"/>
     </resources>
 </document>
